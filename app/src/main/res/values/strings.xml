@@ -1,3 +1,274 @@
 <resources>
     <string name="app_name">Marvel</string>
+
+<!--SPLASH SCREEN-->
+    <string name="splash_screen_1">Find your favorite hero</string>
+    <string name="splash_screen_2">Get to know more about your hero</string>
+    <string name="splash_screen_3">Keep update with hero comics</string>
+    <string name="btn_continue">Continue</string>
+
+<!--LIST CHARACTER COMIC-->
+    <string name="rv_spiderman">SPIDER-MAN</string>
+    <string name="rv_avangers">AVANGERS</string>
+    <string name="rv_blackpanther">BLACK PANTHER</string>
+    <string name="rv_jessicajones">JESSICA JONES</string>
+    <string name="rv_ironman">IRON MAN</string>
+
+<!--LIST COMIC-->
+    <!--AVANGER-->
+    <string name="rvt_comic_avg1">Avengers #1</string>
+    <string name="rvst_comic_avg1">Mackay, Villa</string>
+    <string name="rvt_comic_avg2">Avengers #2</string>
+    <string name="rvst_comic_avg2">Mackay, Villa</string>
+    <string name="rvt_comic_avg3">Avengers #3</string>
+    <string name="rvst_comic_avg3">Mackay, Villa</string>
+    <string name="rvt_comic_avg4">Avengers #4</string>
+    <string name="rvst_comic_avg4">Mackay, Villa</string>
+    <string name="rvt_comic_avg5">Avengers #5</string>
+    <string name="rvst_comic_avg5">Mackay, Fiorelli</string>
+    <string name="rvt_comic_avg6">Avengers #6</string>
+    <string name="rvst_comic_avg6">Mackay, Glez</string>
+    <!--SPIDERMAN-->
+    <string name="rvt_comic_spd1">The Amazing Spider-Man #33</string>
+    <string name="rvst_comic_spd1">Wells, Gleason</string>
+    <string name="rvt_comic_spd2">Spine-Tingling Spider-Man</string>
+    <string name="rvst_comic_spd2">Ahmed, Ferreyra</string>
+    <string name="rvt_comic_spd3">Uncanny Spider-Man #1</string>
+    <string name="rvst_comic_spd3">Spurrier, Garbett</string>
+    <string name="rvt_comic_spd4">The Amazing Spider-Man #34</string>
+    <string name="rvst_comic_spd4">Wells, Gleason</string>
+    <string name="rvt_comic_spd5">Deadpool: Badder Blood #4</string>
+    <string name="rvst_comic_spd5">Liefeld, Bowers</string>
+    <string name="rvt_comic_spd6">Strange Academy: Amazing Spider-Man #1</string>
+    <string name="rvst_comic_spd6">Hernandez, Georgiev</string>
+    <!--BLACK PANTHER-->
+    <string name="rvt_comic_bp1">Black Panther #6</string>
+    <string name="rvst_comic_bp1">Ewing, Horak</string>
+    <string name="rvt_comic_bp2">Black Panther #5</string>
+    <string name="rvst_comic_bp2">Ewing, Chater</string>
+    <string name="rvt_comic_bp3">Black Panther #4</string>
+    <string name="rvst_comic_bp3">Ewing, Allen</string>
+    <string name="rvt_comic_bp4">Black Panther #3</string>
+    <string name="rvst_comic_bp4">Ewing, Allen</string>
+    <string name="rvt_comic_bp5">Black Panther #2</string>
+    <string name="rvst_comic_bp5">Ewing, Allen</string>
+    <string name="rvt_comic_bp6">Black Panther #15</string>
+    <string name="rvst_comic_bp6">Ridley, Peralta</string>
+    <!--JESSICA JONES-->
+    <string name="rvt_comic_jj1">Jessica Jones: Blind Spot #6</string>
+    <string name="rvst_comic_jj1">Thompson, Takara</string>
+    <string name="rvt_comic_jj2">Jessica Jones: Blind Spot #5</string>
+    <string name="rvst_comic_jj2">Giangiordano</string>
+    <string name="rvt_comic_jj3">Jessica Jones: Blind Spot #4</string>
+    <string name="rvst_comic_jj3">Giangiordano</string>
+    <string name="rvt_comic_jj4">Jessica Jones: Blind Spot #2</string>
+    <string name="rvst_comic_jj4">Giangiordano</string>
+    <string name="rvt_comic_jj5">Jessica Jones: Blind Spot #1</string>
+    <string name="rvst_comic_jj5">Giangiordano</string>
+    <string name="rvt_comic_jj6">Incoming! #1</string>
+    <string name="rvst_comic_jj6">Pak, Aaron</string>
+    <!--IRON MAN-->
+    <string name="rvt_comic_im1">I Am Iron Man #4</string>
+    <string name="rvst_comic_im1">Ayodele, Akande</string>
+    <string name="rvt_comic_im2">Invincible Iron Man #7</string>
+    <string name="rvst_comic_im2">Duggan, Frigeri</string>
+    <string name="rvt_comic_im3">X-Men #23</string>
+    <string name="rvst_comic_im3">Duggan, Cassara</string>
+    <string name="rvt_comic_im4">I Am Iron Man #5</string>
+    <string name="rvst_comic_im4">Ayodele, Akande</string>
+    <string name="rvt_comic_im5">Invincible Iron Man #6</string>
+    <string name="rvst_comic_im5">Duggan, Vito</string>
+    <string name="rvt_comic_im6">I Am Iron Man #3</string>
+    <string name="rvst_comic_im6">Ayodele, Akande</string>
+
+<!--DETAIL COMIC -->
+    <string name="publish">Published:</string>
+    <string name="writer">Writer:</string>
+    <string name="penciler">Penciler:</string>
+    <string name="cover_artist">Cover Artist:</string>
+
+    <!--AVANGERS 1 -->
+    <string name="publish_avg1">May 17, 2023</string>
+    <string name="writer_avg1">Jed Mackay</string>
+    <string name="penciler_avg1">C.F. Villa</string>
+    <string name="cover_artist_avg1">Stuart Immonen</string>
+    <string name="summary_avg1">JED MACKAY AND STORMBREAKER C.F. VILLA TAKE THE REINS OF EARTH\'S MIGHTIEST HEROES! The Star. The Icon. The Witch. The Construct. The God. The Engineer. The King. The world is ever in peril, and a new team of Avengers mobilizes to meet any dangers that dare threaten the planet. But when TERMINUS attacks, a new and insidious danger rears its head: one that the Avengers know all too well, and one that comes to them in the most dangerous of guises - that of a friend</string>
+    <!--AVANGERS 2 -->
+    <string name="publish_avg2">June 21, 2023</string>
+    <string name="writer_avg2">Jed Mackay</string>
+    <string name="penciler_avg2">C.F. Villa</string>
+    <string name="cover_artist_avg2">Stuart Immonen</string>
+    <string name="summary_avg2">The Avengers find themselves with a rare gift - foreknowledge of the dangers coming their way in the form of the deadly TRIBULATION EVENTS. But can this information be trusted? And can even Earth\'s Mightiest Heroes triumph in the face of cascading disaster?</string>
+    <!--AVANGERS 3 -->
+    <string name="publish_avg3">July 26, 2023</string>
+    <string name="writer_avg3">Jed Mackay</string>
+    <string name="penciler_avg3">C.F. Villa</string>
+    <string name="cover_artist_avg3">Stuart Immonen</string>
+    <string name="summary_avg3">The first Tribulation Event strikes the Earth! The Avengers fly into action as the Ashen Combine - a collection of the Multiverse\'s greatest monsters - descends from the Impossible City to follow their respective appetites. Cityslayers all, pursuing the assassination of metropolitan areas for sport!</string>
+    <!--AVANGERS 4 -->
+    <string name="publish_avg4">August 09, 2023</string>
+    <string name="writer_avg4">Jed Mackay</string>
+    <string name="penciler_avg4">C.F. Villa</string>
+    <string name="cover_artist_avg4">Stuart Immonen</string>
+    <string name="summary_avg4">Battle is joined as the Avengers race to combat the Ashen Combine. But with Lord Ennui, the Citysmith, Idol Alabaster, the Dead and Meridian Diadem scattered across the planet, each with their own city for prey, have the Avengers spread themselves too thin? United, the Avengers stand. But divided…?</string>
+    <!--AVANGERS 5 -->
+    <string name="publish_avg5">May 17, 2023</string>
+    <string name="writer_avg5">Jed Mackay</string>
+    <string name="penciler_avg5">C.F. Villa</string>
+    <string name="cover_artist_avg5">Stuart Immonen</string>
+    <string name="summary_avg5">Battle zone: Vatican City. God vs. living godhead as Thor battles Idol Alabaster. Battle zone: Sydney. Witch vs. revenant as the Scarlet Witch wages war upon the Dead. Battle zone: Toronto. Engineer vs. artist as Iron Man clashes with the Citysmith. Assembled, the Avengers are invincible. But separated, how can they triumph?</string>
+    <!--AVANGERS 6 -->
+    <string name="publish_avg6">October 11, 2023</string>
+    <string name="writer_avg6">Jed Mackay, Kalinda Vazquez</string>
+    <string name="penciler_avg6">Alba Glez, Ivan Fiorelli</string>
+    <string name="cover_artist_avg6">Stuart Immonen</string>
+    <string name="summary_avg6">The Avengers\' battle with the Ashen Combine comes to a head - and one will fall. But will the Impossible City fall with them, and what kind of doom might fall upon the Earth as a consequence? Plus: A bonus story celebrating Latin/Latinx heroes and creators!</string>
+
+    <!--SPIDERMAN 1 -->
+    <string name="publish_spd1">September 06, 2023</string>
+    <string name="writer_spd1">Zeb Wells</string>
+    <string name="penciler_spd1">Patrick Gleason</string>
+    <string name="cover_artist_spd1">John Romita</string>
+    <string name="summary_spd1">SPIDER-MAN\'S FIRST HUNT! The hunter is now the prey. Can Kraven survive?</string>
+    <!--SPIDERMAN 2 -->
+    <string name="publish_spd2">September 13, 2023</string>
+    <string name="writer_spd2">Saladin Ahmed</string>
+    <string name="penciler_spd2">Juan Ferreyra</string>
+    <string name="cover_artist_spd2">Juan Ferreyra</string>
+    <string name="summary_spd2">THE MOST TERRIFYING SPIDER-MAN STORY EVER! Spider-Slayers and a Smythe. A song that, once heard, will not allow you to sleep. One of the worst threats to Aunt May you\'ve ever experienced. FIRST TIME IN PRINT! Collecting the Infinity Comics series from the Marvel Unlimited app!</string>
+    <!--SPIDERMAN 3 -->
+    <string name="publish_spd3">September 20, 2023</string>
+    <string name="writer_spd3">Si Spurrier</string>
+    <string name="penciler_spd3">Lee Garbett</string>
+    <string name="cover_artist_spd3">Tony Daniel</string>
+    <string name="summary_spd3">THE NIGHTCRAWLING WALL-CRAWLER! On the darkest of days, he is the spark in the shadows! After the devastating events of the Hellfire Gala, Kurt Wagner is on the run - and having the time of his life?! Swashbuckling about NYC in disguise, the Uncanny Wallcrawler sets aside his mutant angst and dedicates himself to the hero\'s life: saving civilians, hanging with fellow wallcrawlers, battling baddies, and hunting down the best pizza on the planet. But he can't ignore the mutant plight forever… Si Spurrier and Lee Garbett launch a joyful, sexy series that will shake Nightcrawler to his foundations - and have a hell of a good time doing it!</string>
+    <!--SPIDERMAN 4 -->
+    <string name="publish_spd4">September 20, 2023</string>
+    <string name="writer_spd4">Zeb Wells</string>
+    <string name="penciler_spd4">Patrick Gleason</string>
+    <string name="cover_artist_spd4">John Romita</string>
+    <string name="summary_spd4">SPIDER-MAN\'S FIRST HUNT! The hunter is now the prey. Can Kraven survive?</string>
+    <!--SPIDERMAN 5 -->
+    <string name="publish_spd5">September 20, 2023</string>
+    <string name="writer_spd5">Rob Liefeld, Chad Bowers</string>
+    <string name="penciler_spd5">Rob Liefeld</string>
+    <string name="cover_artist_spd5">Rob Liefeld</string>
+    <string name="summary_spd5">BATTLE ROYALE \'POOL STYLE! Has WADE met his match against VENOMPOOL and THUMPER? Can DEADPOOL survive the depths of KILLVILLE even with WOLVERINE and SPIDER-MAN by his side? Thumper makes a bold move to consolidate power!</string>
+    <!--SPIDERMAN 6 -->
+    <string name="publish_spd6">October 04, 2023</string>
+    <string name="writer_spd6">Carlos Hernandez</string>
+    <string name="penciler_spd6">Vasco Georgiev</string>
+    <string name="cover_artist_spd6">Nick Bradshaw</string>
+    <string name="summary_spd6">The brilliant new villain THE EQUATION has taken down Miles Morales, Moon Knight and half the students of Strange Academy. Can the AMAZING SPIDER-MAN be of help?</string>
+
+    <!--BLACK PANTHER 1 -->
+    <string name="publish_bp1">November 15, 2023</string>
+    <string name="writer_bp1">Eve Ewing</string>
+    <string name="penciler_bp1">Matt Horak, Mack Chater</string>
+    <string name="cover_artist_bp1">Taurin Clarke</string>
+    <string name="summary_bp1">A SECRET FROM WAKANDA\'S PAST THREATENS TO DESTROY ITS FUTURE! Wakandan crime lord Baba Nkisu has summoned a deadly killer known as Kivu\'Ma, but he may have gotten more than he bargained for. And Wakanda's history holds the key to the dark power that T'Challa must now defend his country from!</string>
+    <!--BLACK PANTHER 2 -->
+    <string name="publish_bp2">October 04, 2023</string>
+    <string name="writer_bp2">Eve Ewing</string>
+    <string name="penciler_bp2">Mack Chater</string>
+    <string name="cover_artist_bp2">Taurin Clarke</string>
+    <string name="summary_bp2">THE MYSTERY OF THE GRAY WOLF! After Black Panther\'s battle with Deathlok, tensions are high in Birnin T\'Chaka as strife between the ruling crime families threatens to escalate into a full-fledged gang war. Can T\'Challa restore peace in the city before it's too late? And what of the whispers of this evil spirit, Kivu'Ma? Who is the Gray Wolf that curses Wakanda?</string>
+    <!--BLACK PANTHER 3 -->
+    <string name="publish_bp3">September 06, 2023</string>
+    <string name="writer_bp3">Eve Ewing</string>
+    <string name="penciler_bp3">Mack Chater, Christopher Allen</string>
+    <string name="cover_artist_bp3">Taurin Clarke</string>
+    <string name="summary_bp3">Two of Birnin Chakas most powerful crime families are about to become one in a wedding that is the talk of Wakanda! Neither Black Panther nor the mysterious Beisa are on the guest list, but that won\'t stop them from making an appearance at this who's who of Wakanda's rich, powerful and dangerous… …especiallywith the assassin Deathlok as one of the wedding crashers!</string>
+    <!--BLACK PANTHER 4 -->
+    <string name="publish_bp4">August 23, 2023</string>
+    <string name="writer_bp4">Eve Ewing</string>
+    <string name="penciler_bp4">Christopher Allen, Mack Chater</string>
+    <string name="cover_artist_bp4">Taurin Clarke</string>
+    <string name="summary_bp4">DEATHLOKS NEW TARGET CHALLA! The five crime families that rule Birnin TChaka have heard the rumors that the Black Panther is lurking in the shadows, so they bring in a hired gun to help protect their interests…the cyborg assassin known as DEATHLOK!</string>
+    <!--BLACK PANTHER 5 -->
+    <string name="publish_bp5">March 08, 2023</string>
+    <string name="writer_bp5">John Ridley</string>
+    <string name="penciler_bp5">German Peralta</string>
+    <string name="cover_artist_bp5">John Romita</string>
+    <string name="summary_bp5">THE EPIC FINALE OF JOHN RIDLEY\'S GAME-CHANGING RUN! Finally, all things must come to a head! Jhai, T Challas best friend and the sleeper agent whose assassination served as the catalyst for all of TChallas recent troubles…is alive. Not only is he alive, but he seeks to seize control of the entire world, all in the name of Wakanda! Still injured, Black Panther rushes forward to take down the man who was once his closest comrade.</string>
+    <!--BLACK PANTHER 6 -->
+    <string name="publish_bp6">July 19, 2023</string>
+    <string name="writer_bp6">Eve Ewing</string>
+    <string name="penciler_bp6">Christopher Allen</string>
+    <string name="cover_artist_bp6">Taurin Clarke</string>
+    <string name="summary_bp6">Who is the mysterious Beisa? Delve deeper into Wakanda as we - and T\'Challa - have never seen her! No longer in the Golden City, TChalla goes deep undercover to try to understand the heart of this city that feels it has been forgotten by the Black Panther.</string>
+
+    <!--JESSICA JONES 1 -->
+    <string name="publish_jj1">March 25, 2020</string>
+    <string name="writer_jj1">Kelly Thompson</string>
+    <string name="penciler_jj1">Marcio Takara</string>
+    <string name="cover_artist_jj1">Valerio Giangiordano</string>
+    <string name="summary_jj1">In the aftermath of a brutal investigation, Jessica reunites with her family for a much-needed break. Since Jessica Jones and Luke Cage got married, there’s been nothing they couldn’t handle together. </string>
+    <!--JESSICA JONES 2 -->
+    <string name="publish_jj2">March 11, 2020</string>
+    <string name="writer_jj2">Kelly Thompson</string>
+    <string name="penciler_jj2">Marcio Takara</string>
+    <string name="cover_artist_jj2">Valerio Giangiordano</string>
+    <string name="summary_jj2">Jessica’s hunt for a deranged serial killer comes to an explosive and bizarre end.</string>
+    <!--JESSICA JONES 3 -->
+    <string name="publish_jj3">February 26, 2020</string>
+    <string name="writer_jj3">Kelly Thompson</string>
+    <string name="penciler_jj3">Marcio Takara</string>
+    <string name="cover_artist_jj3">Valerio Giangiordano</string>
+    <string name="summary_jj3">Mary Jane Watson is dead. Or is she? Jessica struggles to understand the baffling crime scene at MJ’s apartment – but she may be in more danger than she realizes. Guest-starring the Amazing Spider-Man!</string>
+    <!--JESSICA JONES 4 -->
+    <string name="publish_jj4">January 29, 2020</string>
+    <string name="writer_jj4">Kelly Thompson</string>
+    <string name="penciler_jj4">Marcio Takara</string>
+    <string name="cover_artist_jj4">Valerio Giangiordano</string>
+    <string name="summary_jj4">After being brutally attacked in her office, Jessica turns to Doctor Strange to help her find the target. But he may discover more than Jessica bargained for -</string>
+    <!--JESSICA JONES 5 -->
+    <string name="publish_jj5">January 15, 2020</string>
+    <string name="writer_jj5">Kelly Thompson</string>
+    <string name="penciler_jj5">Marcio Takara</string>
+    <string name="cover_artist_jj5">Valerio Giangiordano</string>
+    <string name="summary_jj5">Jessica Jones was once the costumed super hero known as Jewel. She sucked at it. Now she\'s a private investigator at her own firm, Alias Investigations. She sucks less at that. With the Purple Man gone, her relationship with her husband, Luke Cage, and their daughter, Danielle, is better than ever.</string>
+    <!--JESSICA JONES 6 -->
+    <string name="publish_jj6">December 26, 2019</string>
+    <string name="writer_jj6">Chip Zdarsky, Jonathan Hickman, Saladin Ahmed, Jason Aaron</string>
+    <string name="penciler_jj6">Jim Cheung, Carmen Carnero, Humberto Ramos, Carlos Pacheco</string>
+    <string name="cover_artist_jj6">Valerio Schiti, Declan Shalvey, Kim Jacinto, Patrick Gleason</string>
+    <string name="summary_jj6">ONE WILL UNITE THEM! A mysterious murder brings together the heroes of the Marvel Universe in the search for a killer - but no one can imagine where the trail will lead, or how it will affect everything in 2020 and beyond! Who is the victim and who is the assailant? The closing chapter to MARVEL’s 80th year, which will connect the dots of everything that happened in 2019 and propel the narrative into the year that is to come!</string>
+
+    <!--IRON MAN 1 -->
+    <string name="publish_im1">June 21, 2023</string>
+    <string name="writer_im1">Murewa Ayodele</string>
+    <string name="penciler_im1">Dotun Akande</string>
+    <string name="cover_artist_im1">Dotun Akande</string>
+    <string name="summary_im1">IRON MAN, just like every person, has his demons. But when you\'re IRON MAN, director of S.H.I.E.L.D., your demons are war-bringing demons that you must face covered in iron armor and a handful of secrets. </string>
+    <!--IRON MAN 2 -->
+    <string name="publish_im2">June 07, 2023</string>
+    <string name="writer_im2">Gerry Duggan</string>
+    <string name="penciler_im2">Juan Frigeri</string>
+    <string name="cover_artist_im2">Kael Ngu</string>
+    <string name="summary_im2">Tony Stark is in dire need of a win! But how does he plan to get ahead? By building a new suit of armor! The suit\'s first objective? Infiltrate and destroy Stark Industries!</string>
+    <!--IRON MAN 3 -->
+    <string name="publish_im3">June 07, 2023</string>
+    <string name="writer_im3">Gerry Duggan</string>
+    <string name="penciler_im3">Joshua Cassara</string>
+    <string name="cover_artist_im3">Kael Ngu</string>
+    <string name="summary_im3">THE SENTINELS GET AN UPGRADE! Anti-mutant fantasist Feilong has taken control of Tony Stark\'s businesses and devoted Iron Man's technology toward the next generation of Sentinels!</string>
+    <!--IRON MAN 4 -->
+    <string name="publish_im4">July 26, 2023</string>
+    <string name="writer_im4">Murewa Ayodele</string>
+    <string name="penciler_im4">Dotun Akande</string>
+    <string name="cover_artist_im4">Dotun Akande</string>
+    <string name="summary_im4">An old, forgotten (SILVER AGE) foe returns. They crave the destruction of IRON MAN and the subjugation of EARTH. To defeat them, IRON MAN seeks out help from an unusual place - a superhuman prison.</string>
+    <!--IRON MAN 5 -->
+    <string name="publish_im5">May 10, 2023</string>
+    <string name="writer_im5">Gerry Duggan</string>
+    <string name="penciler_im5">Andrea DI Vito</string>
+    <string name="cover_artist_im5">Kael Ngu</string>
+    <string name="summary_im5">BLAST TO THE PAST! It\'s the untold story of Iron Man vs. the West Coast Avengers! But why is he fighting the likes of Wonder Man and Hawkeye? And how do the events of the past affect Tony's future?</string>
+    <!--IRON MAN 6 -->
+    <string name="publish_im6">May 10, 2023</string>
+    <string name="writer_im6">Murewa Ayodele</string>
+    <string name="penciler_im6">Dotun Akande</string>
+    <string name="cover_artist_im6">Dotun Akande</string>
+    <string name="summary_im6">MOTHERS DAY SPECIAL… One of Iron Man\'s greatest regrets was his inability to save his mother\'s life. Iron Man dons new armor, an oni mask and twin plasma katanas on his quest to make his long list of regrets one item shorter. </string>
 </resources>
